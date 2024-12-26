@@ -1,10 +1,17 @@
 import { GraduationCap, Award, BookOpen } from "lucide-react";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 export const Hero = () => {
   return (
-    <div className="bg-primary text-white py-16 md:py-24">
+    <div id="about" className="bg-primary text-white py-16 md:py-24 mt-16">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center animate-fade-down">
+          <div className="mb-8">
+            <Avatar className="w-32 h-32 mx-auto border-4 border-secondary">
+              <AvatarImage src="/placeholder.svg" alt="Dr. Maryam Shaygan" />
+              <AvatarFallback>MS</AvatarFallback>
+            </Avatar>
+          </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             Dr. Maryam Shaygan
           </h1>
