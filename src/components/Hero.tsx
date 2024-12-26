@@ -1,5 +1,6 @@
-import { GraduationCap, Award, BookOpen } from "lucide-react";
+import { GraduationCap, Award, BookOpen, ArrowRight } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Link } from "react-scroll";
 
 export const Hero = () => {
   return (
@@ -22,7 +23,7 @@ export const Hero = () => {
             A dedicated academic leader with over 10 years of experience in nursing education,
             research, and innovation. Committed to advancing healthcare through education and research.
           </p>
-          <div className="flex flex-wrap justify-center gap-8">
+          <div className="flex flex-wrap justify-center gap-8 mb-12">
             <div className="flex items-center gap-2">
               <GraduationCap className="w-6 h-6 text-secondary" />
               <span>PhD in Pain Psychology</span>
@@ -33,8 +34,30 @@ export const Hero = () => {
             </div>
             <div className="flex items-center gap-2">
               <BookOpen className="w-6 h-6 text-secondary" />
-              <span>60+ Publications</span>
+              <span>70+ Publications</span>
             </div>
+          </div>
+          <div className="flex justify-center gap-4">
+            <Link
+              to="achievements"
+              spy={true}
+              smooth={true}
+              offset={-64}
+              duration={500}
+              className="flex items-center gap-2 bg-secondary text-primary px-6 py-3 rounded-lg hover:bg-secondary/90 transition-colors cursor-pointer"
+            >
+              View Achievements <ArrowRight className="w-5 h-5" />
+            </Link>
+            <Link
+              to="awards"
+              spy={true}
+              smooth={true}
+              offset={-64}
+              duration={500}
+              className="flex items-center gap-2 bg-white/10 text-white px-6 py-3 rounded-lg hover:bg-white/20 transition-colors cursor-pointer"
+            >
+              View Awards <ArrowRight className="w-5 h-5" />
+            </Link>
           </div>
         </div>
       </div>
