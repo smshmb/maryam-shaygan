@@ -9,7 +9,11 @@ export const Hero = () => {
         <div className="max-w-4xl mx-auto text-center animate-fade-down">
           <div className="mb-8">
             <Avatar className="w-32 h-32 mx-auto border-4 border-secondary">
-              <AvatarImage src="/lovable-uploads/d70ff873-8193-4efa-9cd1-e45d2c567a7f.png" alt="Dr. Maryam Shaygan" />
+              <AvatarImage 
+                src="/lovable-uploads/d70ff873-8193-4efa-9cd1-e45d2c567a7f.png" 
+                alt="Dr. Maryam Shaygan"
+                className="object-cover"
+              />
               <AvatarFallback>MS</AvatarFallback>
             </Avatar>
           </div>
