@@ -8,29 +8,34 @@ export const Awards = () => {
       description: "Honored by the President and the Minister of Health of Iran",
     },
     {
+      year: "2024",
+      title: "National Nursing Education Committee",
+      description: "Appointed as member of Iran's Examination, Evaluation, and Curriculum Planning Committee for nursing education reform",
+    },
+    {
+      year: "2024",
+      title: "Pioneer in Nursing Innovation",
+      description: "Established Iran's first Nursing Clinic with innovative features to enhance primary and tertiary health",
+    },
+    {
+      year: "2024",
+      title: "Digital Healthcare Innovation",
+      description: "Developed an innovative online platform connecting nursing professors with patients for real-time professional guidance",
+    },
+    {
       year: "2023",
       title: "Top Researcher",
       description: "Recognized for outstanding contributions to research at Shiraz University of Medical Sciences",
     },
     {
-      year: "2024",
-      title: "Committee Leadership",
-      description: "Appointed as leader in Iran's Examination, Evaluation, and Curriculum Planning Committee",
+      year: "2022",
+      title: "Research Centre Excellence",
+      description: "Led the Community-Based Psychiatric Care Research Centre to achieve top ranking among research centres at SUMS",
     },
     {
-      year: "2020",
-      title: "National Educational Innovation Award",
-      description: "Honored for integrating technology and innovative methodologies into nursing education",
-    },
-    {
-      year: "2019",
+      year: "2019-2025",
       title: "Motahari Educational Festival Winner",
-      description: "Awarded for exceptional achievements in education",
-    },
-    {
-      year: "2018",
-      title: "Healthcare Leadership Award",
-      description: "Received for significant contributions to improving nursing care and education in Iran",
+      description: "Multiple-time winner for exceptional achievements in education",
     },
     {
       year: "2014",
@@ -38,30 +43,15 @@ export const Awards = () => {
       description: "Awarded for research on visual stimuli in chronic pain mitigation at George August University",
     },
     {
-      year: "2016",
-      title: "Excellence in Clinical Education",
-      description: "Awarded for outstanding leadership in clinical training programs",
+      year: "2013-2014",
+      title: "International Research Recognition",
+      description: "Commended by Red Cross Hospital in Kassel, Germany for collaborative research on chronic pain",
     },
     {
-      year: "2014",
-      title: "International Collaboration Recognition",
-      description: "Commended by George August University of Göttingen for research collaboration",
-    },
-    {
-      year: "2010",
-      title: "First Top Student MSc",
-      description: "Faculty of Nursing, Shiraz University of Medical Sciences",
-    },
-    {
-      year: "2008",
-      title: "Top Student BSc",
-      description: "Faculty of Nursing, Isfahan University of Medical Sciences",
-    },
-    {
-      year: "2023",
-      title: "International Publication Impact",
-      description: "Recognized for high citation rates in pain management and nursing education",
-    },
+      year: "2011-2014",
+      title: "University of Göttingen Fellowship",
+      description: "Awarded faculty-funded Ph.D. and Research Position at the globally ranked University of Göttingen",
+    }
   ];
 
   return (
