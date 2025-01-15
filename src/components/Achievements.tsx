@@ -3,60 +3,45 @@ import { Trophy, Star, BookOpen, Users, Globe, Brain, Stethoscope, Laptop, Gradu
 export const Achievements = () => {
   const achievements = [
     {
-      icon: Stethoscope,
-      title: "Iran's First Nursing Clinic",
-      description: "Pioneered a clinic with innovative and unique features to enhance patient care",
-    },
-    {
-      icon: Laptop,
-      title: "Multimedia Healthcare",
-      description: "Designed and implemented multimedia and mobile-based tools for pain management education",
-    },
-    {
       icon: GraduationCap,
-      title: "Master's Curriculum Innovation",
-      description: "Introduced Iran's first Master's program in Pain Management Nursing",
-    },
-    {
-      icon: BookOpen,
-      title: "National Guidelines",
-      description: "Created the official guideline for internship programs at the request of Iran's Ministry of Health",
-    },
-    {
-      icon: Star,
-      title: "Rehabilitation Program",
-      description: "Designed a Short-term Rehabilitation Nursing Program for chronic patient management",
-    },
-    {
-      icon: Users,
-      title: "Internship Innovation",
-      description: "Developed a groundbreaking program improving nursing students' competency",
+      title: "Curriculum Innovation",
+      description: "Led the redesign of Iran's Ph.D. Nursing Curriculum and spearheaded the development of the first DNP program, aligning with global standards.",
     },
     {
       icon: Brain,
       title: "Pain Management Research",
-      description: "Pioneered research on visual stimuli in chronic pain management",
-    },
-    {
-      icon: Trophy,
-      title: "Curriculum Leadership",
-      description: "Led national curriculum planning committees for nursing education at all levels",
+      description: "Pioneered research on visual stimuli in chronic pain management, leading to innovative non-pharmacological interventions.",
     },
     {
       icon: Globe,
       title: "Global Academic Impact",
-      description: "Published 70+ articles in prestigious journals including The Lancet Rheumatology",
+      description: "Published 60+ articles in prestigious journals including The Lancet Rheumatology, Scientific Reports, and The Journal of Pain.",
+    },
+    {
+      icon: Stethoscope,
+      title: "National Guidelines",
+      description: "Developed Iran's official nursing internship guideline, receiving commendations from the Deputy Minister and a Presidential plaque.",
+    },
+    {
+      icon: Users,
+      title: "Suicide Prevention Pioneer",
+      description: "Delivered specialized training for Iran's first suicide emergency hotline and led research initiatives in suicide prevention.",
+    },
+    {
+      icon: Star,
+      title: "Academic Leadership",
+      description: "Played key roles in national curriculum planning committees and examination teams for nursing education at all levels.",
     },
     {
       icon: UserPlus,
       title: "Academic Mentorship",
-      description: "Supervised over 20 graduate and doctoral theses in healthcare fields",
+      description: "Supervised 20+ graduate and doctoral theses in healthcare fields, leading to significant findings in pain management and mental health.",
     },
     {
       icon: Presentation,
-      title: "International Speaker",
-      description: "Delivered keynotes on digital health innovations and AI in healthcare",
-    },
+      title: "International Recognition",
+      description: "Delivered presentations at international conferences and received endorsements from renowned academics like Dr. Andreas Böger.",
+    }
   ];
 
   return (

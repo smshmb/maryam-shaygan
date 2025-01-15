@@ -5,20 +5,23 @@ export const Education = () => {
     {
       year: "2014",
       degree: "Ph.D. in Pain Psychology",
-      institution: "George August University",
-      location: "Göttingen, Germany",
+      institution: "University of Göttingen",
+      location: "Germany",
+      description: "Ranked 63rd globally by Times Higher Education World University Rankings 2013-2014"
     },
     {
       year: "2010",
       degree: "Master of Science in Psychiatric Nursing",
       institution: "Shiraz University of Medical Sciences",
       location: "Shiraz, Iran",
+      description: "Graduated as the Top Student in the MSc program"
     },
     {
       year: "2008",
       degree: "Bachelor of Science in Nursing",
       institution: "Isfahan University of Medical Sciences",
       location: "Isfahan, Iran",
+      description: "Recognized as the Top Student in the BSc program"
     },
   ];
 
@@ -41,6 +44,7 @@ export const Education = () => {
                 <h3 className="text-xl font-bold text-primary mt-1">{edu.degree}</h3>
                 <p className="text-gray-600">{edu.institution}</p>
                 <p className="text-gray-500">{edu.location}</p>
+                <p className="text-gray-600 mt-2 italic">{edu.description}</p>
               </div>
             </div>
           ))}
