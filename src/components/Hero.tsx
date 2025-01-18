@@ -10,7 +10,7 @@ export const Hero = () => {
           <div className="mb-8">
             <Avatar className="w-32 h-32 mx-auto border-4 border-secondary">
               <AvatarImage 
-                src="lovable-uploads/2c186f83-086d-4177-9519-23a4ca06dfc7.png" 
+                src="/placeholder.svg"
                 alt="Dr. Maryam Shaygan"
                 className="object-cover"
               />
