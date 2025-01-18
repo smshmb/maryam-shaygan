@@ -10,8 +10,8 @@ export const Hero = () => {
           <div className="mb-8">
             <Avatar className="w-32 h-32 mx-auto border-4 border-secondary">
               <AvatarImage 
-                src="/placeholder.svg"
-                alt="Dr. Maryam Shaygan"
+                src="/lovable-uploads/b0154e07-137a-4e39-ace8-369181608ea9.png"
+                alt="Professor Portrait"
                 className="object-cover"
               />
               <AvatarFallback>MS</AvatarFallback>
