@@ -5,19 +5,19 @@ export const Resources = () => {
     {
       icon: Linkedin,
       title: "LinkedIn Profile",
-      url: "#",
+      url: "https://www.linkedin.com/in/maryam-shaygan-33b86562/",
       description: "Connect with me on LinkedIn",
     },
     {
       icon: BookOpen,
       title: "Google Scholar",
-      url: "#",
+      url: "https://scholar.google.com/citations?user=eJd97uIAAAAJ&hl=en",
       description: "View my published research",
     },
     {
       icon: Globe,
       title: "University Profile",
-      url: "https://nursing.sums.ac.ir",
+      url: "https://isid.research.ac.ir/Maryam_Shaygan",
       description: "Visit my academic profile",
     },
   ];
