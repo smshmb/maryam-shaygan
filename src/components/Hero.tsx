@@ -38,7 +38,7 @@ export const Hero = () => {
             </div>
             <div className="flex items-center gap-2">
               <BookOpen className="w-6 h-6 text-secondary" />
-              <span>70+ Publications</span>
+              <span>60+ Publications</span>
             </div>
           </div>
           <div className="flex justify-center gap-4">
